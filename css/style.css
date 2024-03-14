@@ -85,14 +85,14 @@ body{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #002e5f;
+    background: #dd9907;
 }
 
 .communicate .btn:hover{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #00bfff;
+    background: #b27610;
 }
 
 .header{
@@ -106,11 +106,13 @@ body{
     left: 0;
     z-index: 100;
     position: fixed;
+    background-color: #d66e0d;;
 }
 
 .header .logo img{
-    width: 130%;
-    height: 3rem;
+    width: 90%;
+    height: 9rem;
+    border-radius: 8px;
     top: 0;
     left: 0;
 }
@@ -129,10 +131,12 @@ body{
 .header .navbar ul li a{
     font-size: 2rem;
     color: #fff;
+    
+    
 }
 
 .header .navbar ul li a:hover{
-    color: #00bfff;
+    color: #c7701e;
     text-decoration: underline;
 }
 
@@ -181,7 +185,7 @@ body{
     background: url(../images/wave.png);
     background-size: 100rem 11rem;
     animation: waves 8s linear infinite;
-    background-repeat: repeat-x;
+    background-repeat: repeat-;
 }
 
 .home .wave2{
@@ -281,7 +285,7 @@ body{
   }
   .item:hover h6,
   .item:hover p{
-    color:#2b6777;
+    color:#ae4815;
     -webkit-transition:all 0.5s ease 0s;
     transition:all 0.5s ease 0s;
   }
@@ -296,27 +300,27 @@ body{
   }
   .item .feature_box_col_one{
     background:rgba(247,198,5,0.2);
-    color:#52ab98;
+    color:#b95310;
   }
   .item .feature_box_col_two{
     background: rgba(255, 77, 28, 0.15);
-    color:#52ab98;
+    color:#b95310;
   }
   .item .feature_box_col_three{
     background:rgba(0,147,38,0.15);
-    color:#52ab98;
+    color:#b95310;
   }
   .item .feature_box_col_four{
     background:rgba(0,108,255,0.15);
-    color:#52ab98;
+    color:#d6670c;
   }
   .item .feature_box_col_five{
     background:rgba(146,39,255,0.15);
-    color:#52ab98;
+    color:#c05018;
   }
   .item .feature_box_col_six{
     background:rgba(23,39,246,0.15);
-    color:#52ab98;
+    color:#af4106;
   }
   .item p{
     font-size: 15px;
@@ -420,30 +424,30 @@ body{
     border-radius: 50px;
   }
   .item .feature_box_col_one{
-    background:rgba(247,198,5,0.2);
-    color:#52ab98;
+    background:rgba(190, 155, 16, 0.2);
+    color: #b95310;
   }
   .item .feature_box_col_two{
     background: rgba(255, 77, 28, 0.15);
-    color:#52ab98;
+    color:#b95310;
     
   }
   .item .feature_box_col_three{
     background:rgba(0,147,38,0.15);
-    color:#52ab98;
+    color:#b95310;
   }
   .item .feature_box_col_four{
     background:rgba(0,108,255,0.15);
-    color:#52ab98;
+    color:#b95310;
     
   }
   .item .feature_box_col_five{
     background:rgba(146,39,255,0.15);
-    color:#52ab98;
+    color:#b95310;
   }
   .item .feature_box_col_six{
     background:rgba(23,39,246,0.15);
-    color:#52ab98;
+    color:#b95310;
   }
   .item p{
     font-size: 15px;
@@ -537,7 +541,7 @@ body{
 }
 
 .testimonials .owl-dot.active {
-    background-color: #4F84C4;
+    background-color: #b95310;
 }
 
 @media (max-width: 575px) {
@@ -590,7 +594,7 @@ body{
 }
 
 .clients .owl-dot.active {
-    background-color: #4F84C4;
+    background-color: #c6a11a;
 }    
 
 .team{
@@ -601,11 +605,11 @@ body{
 }
 
 .team .heading{
-    color: #00bfff;
+    color: #d1b714;
 }
 
 .team .heading::before, .team .heading::after{
-    border-color: #00bfff;
+    border-color: #ce5010;
 }
 
 .team .row{
@@ -654,7 +658,7 @@ body{
 
 .team .row .card .info span{
     font-size: 1.8rem;
-    color: #00bfff;
+    color: #ff6200;
 }
 
 .team .row .card .info .icons a{
@@ -668,22 +672,22 @@ body{
 }
 
 .team .row .card .info .icons .fa-facebook-f:hover, .footer .icons .fa-facebook-f:hover{
-    color: #4267B2;
+    color: #b94f16;
     text-decoration: none;
 }
 
 .team .row .card .info .icons .fa-twitter:hover, .footer .icons .fa-twitter:hover{
-    color: #1DA1F2;
+    color: #b95310;
     text-decoration: none;
 }
 
 .team .row .card .info .icons .fa-instagram:hover, .footer .icons .fa-instagram:hover{
-    color: #C13584;
+    color: #b95310;
     text-decoration: none;
 }
 
 .team .row .card .info .icons .fa-linkedin:hover, .footer .icons .fa-linkedin:hover{
-    color: #2867B2;
+    color: #b95310;
     text-decoration: none;
 }
 
@@ -697,7 +701,7 @@ body{
 }
 
 .team .row .card::before{
-    background: #00bfff;
+    background: #b95310;
     top: -3rem;
     right: -4rem;
 }
@@ -847,7 +851,7 @@ body{
         }
         
         .footer .footer-top {
-            background: #002e5f;
+            background: #cf7b0d;
             padding: 60px 0 30px 0;
         }
         
@@ -873,7 +877,7 @@ body{
         }
         
         .footer .footer-top .social-links a:hover {
-            background: #00bfff;
+            background: #ff8400;
             color: #ffffff;
         }
         
@@ -925,7 +929,7 @@ body{
         }
         
         .footer .footer-top .footer-links ul a:hover {
-            color: #00bfff;
+            color: #ff9500;
         }
         
         .footer .footer-top .footer-contact p {
